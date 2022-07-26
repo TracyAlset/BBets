@@ -74,6 +74,21 @@ Using the mean and standard deviation ( subtracting 110 from the mean and adding
 
 # What size of class makes the 2:1 bet fair?  Use manipulation of number of Students to tune Brownlows earnings to zero.
 
+
+```{r}
+Sub<- numeric(length=1000)
+for (j in 1:1000) {
+Sub[j]=BrLw(numClass = 28 )  
+}
+
+```
+
+```{r}
+hist(Sub)
+```
+
+It looks like when we have 28 students in the class the 2:1 odd is fair because the peak is close to zero. To be more precise, the actual number that would make the histogram center at zero would be between 28 and 29, but because we're talking about people we should have an integer for the number of students in the class. (In the histogram , the zero was further to the right in the case of 29 students and this shift is larger when we use 28 as the size of the class where the zero was on the left but the shift is smaller than the case of having 29 as the class size).
+
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
 
 
