@@ -108,22 +108,14 @@ hist(Sub)
 It looks like when we have 28 students in the class the 2:1 odd is fair because the peak is close to zero. To be more precise, the actual number that would make the histogram center at zero would be between 28 and 29, but because we're talking about people we should have an integer for the number of students in the class. (In the histogram , the zero was further to the right in the case of 29 students and this shift is larger when we use 28 as the size of the class where the zero was on the left but the shift is smaller than the case of having 29 as the class size).
 
 
-
-
-
-
-
-
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
 
 
-
-
-
-
-
-
 # Discussion and Conclusion
+
+The first thing that we did was create a function that allows us to find brownlow's earnings based on the class size, the odds and the amount of times brownlow does the bet. By manipulating this function we were able to answer the questions that we had to answer. first we were able to find the earnings of hiring 40 brownlows to do the same thing by finding the mean (after using the function we created )and then the standard deviation to find the 95% confidence interval for the earnings. then we were able to find the fair odds( by changing the odds in the function) by manipulating the function. and then the last thing we did was manipulate the function ( by changing the class size) to find where the earnings are zero in case of a 2:1 odds.
+
+
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
 
